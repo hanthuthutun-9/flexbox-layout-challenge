@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #403d39;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  /* background-color: #333; */
+}
+
+a:hover {
+  color: #b0c4b1;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+.main-heading {
+  background-color: #b0c4b1;
+  padding: 30px;
+}
+
+/* main navbar styling */
+.main-navbar {
+  display: flex;
+  background-color: #cccccc58;
+  /* padding: 15px; */
+  gap: 1rem;
+}
+
+.main-navbar > * {
+   padding: 15px;
+} 
+
+.active {
+  /* background-color: #cad2c5; */
+  text-decoration: underline;
+}
+
+/* main part styling */
+.container {
+  display: flex;
+  padding: 40px 30px;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.container .article {
+  flex: 5;
+}
+.container .side-navbar {
+  flex: 2;
+}
+
+.text {
+  line-height: 200%;
+}
+
+/* Side navbar styling */
+.tertiary-heading {
+background-color: #b0c4b1;
+}
+
+.side-navbar {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  /* gap: 20px; */
+  /* padding: 10px; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.side-navbar> * {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.side-navbar a {
+  background-color: #cccccc58;
+}
